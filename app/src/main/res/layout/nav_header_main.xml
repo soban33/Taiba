@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/nav_header_height"
+    android:background="@color/colorBackground"
+    android:orientation="vertical"
+    android:gravity="bottom"
+    >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:padding="10dp">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/img_logo"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            app:cardCornerRadius="15dp">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/taiba_logo"
+                />
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/txt_name_menuHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="7dp"
+            android:layout_toEndOf="@id/img_logo"
+            android:text="Taiba Institute"
+            android:textColor="@color/colorBlack"
+            android:textSize="23sp" />
+
+        <TextView
+            android:id="@+id/txt_gmail_menuHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_name_menuHeader"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="6dp"
+            android:layout_toEndOf="@id/img_logo"
+            android:text="temporary333@gmail.com"
+            android:textColor="@color/colorSilver"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_gmail_menuHeader"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="6dp"
+            android:layout_toEndOf="@id/img_logo"
+            android:text="+917798636565"
+            android:textColor="@color/colorSilver"
+            android:textSize="12sp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:background="@color/colorPrimary"
+        android:layout_gravity="bottom"
+        />
+
+</LinearLayout>
