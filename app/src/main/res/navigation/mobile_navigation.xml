@@ -20,25 +20,25 @@
 
     <fragment
         android:id="@+id/nav_slideshow"
-        android:name="com.example.taiba.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        android:name="com.example.taiba.ui.studentscorner.StudentsCornerFragment"
+        android:label="@string/menu_studentcorner"
+        tools:layout="@layout/fragment_studentscorner" />
 
     <fragment
         android:id="@+id/nav_tools"
-        android:name="com.example.taiba.ui.tools.ToolsFragment"
-        android:label="@string/menu_tools"
-        tools:layout="@layout/fragment_tools" />
+        android:name="com.example.taiba.ui.freemateriel.FreematerielFragment"
+        android:label="@string/menu_freemateriel"
+        tools:layout="@layout/fragment_freemateriel" />
 
     <fragment
         android:id="@+id/nav_share"
         android:name="com.example.taiba.ui.share.ShareFragment"
-        android:label="@string/menu_share"
+        android:label="@string/menu_aboutus"
         tools:layout="@layout/fragment_share" />
 
     <fragment
         android:id="@+id/nav_send"
         android:name="com.example.taiba.ui.send.SendFragment"
-        android:label="@string/menu_send"
+        android:label="@string/menu_appdevelp"
         tools:layout="@layout/fragment_send" />
 </navigation>
