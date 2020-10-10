@@ -10,9 +10,9 @@
     >
 
     <ImageView
-        android:layout_width="125dp"
+        android:layout_width="90dp"
         android:layout_height="80dp"
-        android:src="@drawable/logo"
+        android:src="@drawable/frontlogo"
         android:layout_marginStart="5dp"
         />
 
@@ -21,7 +21,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="5dp"
-        android:text="Taiba Coaching Institute"
+        android:text="@string/taiba_coaching_inst"
         android:textColor="@color/colorBlack"
         android:textSize="23sp" />
 
@@ -30,7 +30,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:text="temporary333@gmail.com"
+        android:text="@string/taibacoachinginstitute_gmail_com"
         android:textColor="@color/colorSilver"
         android:textSize="14sp"
         android:layout_marginTop="3dp"
@@ -41,12 +41,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:text="+917798636565"
+        android:layout_marginBottom="6dp"
+        android:text="@string/mobilenum"
         android:textColor="@color/colorSilver"
         android:textSize="14sp"
         />
-
-
 
     <LinearLayout
         android:layout_width="match_parent"

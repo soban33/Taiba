@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp"
+            android:background="@android:color/white"
+            >
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/logo"
+                    android:layout_gravity="center_horizontal"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/faculty_info"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/bold_heading"
+                    android:layout_gravity="start"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/colorPrimary"
+                    />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/bold_heading"
+                    android:text="@string/mohammad_mushfique"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/biology_nm_sc_botany_b_ed_ph_d_n10_years_experience"
+                    android:layout_marginStart="20dp"
+                    android:textSize="16sp"
+                    />
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/bold_heading"
+                    android:text="@string/mohammad_tauseef"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mathematics_nm_sc_maths_goldmedal_m_phil_n5_years_experience"
+                    android:layout_marginStart="20dp"
+                    android:textSize="16sp"
+                    />
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/bold_heading"
+                    android:text="@string/imran_shaikh"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/physics_nb_e_mechanical_n10_years_experience"
+                    android:layout_marginStart="20dp"
+                    android:textSize="16sp"
+                    />
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/bold_heading"
+                    android:text="Abdul Razique"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Physics\nB.E (Civil) \n4 years experience"
+                    android:layout_marginStart="20dp"
+                    android:textSize="16sp"
+                    />
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/bold_heading"
+                    android:text="S.A Khan"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Chemistry \nM.Sc (chemistry), B.Ed, Ph.D \n12 years experience"
+                    android:layout_marginStart="20dp"
+                    android:textSize="16sp"
+                    />
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/bold_heading"
+                    android:text="@string/arshiya_syed"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/chemistry_nm_sc_chemistry_n3_years_experience"
+                    android:layout_marginStart="20dp"
+                    android:textSize="16sp"
+                    />
+
+
+                <TextView
+                    android:id="@+id/txt_customdial_faculty_okay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/okay_dialog"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/bold_heading"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="10dp"
+                    />
+        </LinearLayout>
+</ScrollView>

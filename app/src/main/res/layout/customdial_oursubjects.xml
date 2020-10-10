@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:padding="20dp"
+    android:background="@android:color/white"
+    >
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/logo"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/subjects_we_teach"
+        android:textStyle="bold"
+        android:textSize="@dimen/bold_heading"
+        android:layout_gravity="start"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/colorPrimary"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/bold_heading"
+        android:text="1- BIOLOGY"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- by Mohammad Mushfique"
+        android:layout_marginStart="20dp"
+        android:textSize="16sp"
+        />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/bold_heading"
+        android:text="2- MATHEMATHICS"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- by Mohammad Tauseef"
+        android:layout_marginStart="20dp"
+        android:textSize="16sp"
+        />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/bold_heading"
+        android:text="3- PHYSICS"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- by Imran Sheikh and\n- Abdul Razique"
+        android:layout_marginStart="20dp"
+        android:textSize="16sp"
+        />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/bold_heading"
+        android:text="4- Chemistry"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- by S.A Khan and \n- Arshiya Syed"
+        android:layout_marginStart="20dp"
+        android:textSize="16sp"
+        />
+
+    <TextView
+        android:id="@+id/txt_customdial_oursubjects_okay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/okay_dialog"
+        android:textStyle="bold"
+        android:textSize="@dimen/bold_heading"
+        android:textColor="@color/colorPrimary"
+        android:layout_gravity="end"
+        android:layout_marginTop="10dp"
+        />
+
+</LinearLayout>

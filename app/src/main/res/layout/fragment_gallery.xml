@@ -1,140 +1,227 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     >
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Events"
-        android:textSize="@dimen/bold_heading"
-        android:textStyle="bold"
-        android:layout_gravity="center_horizontal"
-        android:layout_margin="20dp"
-        />
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/roundbackground"
-        android:layout_margin="10dp"
+        android:orientation="vertical"
+        android:padding="10dp"
         >
-        <de.hdodenhof.circleimageview.CircleImageView
-            android:layout_width="65dp"
-            android:layout_height="65dp"
-            android:src="@mipmap/ic_events"
-            app:civ_border_width="8dp"
-            app:civ_border_color="@android:color/white"
-            />
-        <TextView
-            android:layout_width="250dp"
-            android:layout_height="wrap_content"
-            android:text="Welcome Party"
-            android:textSize="@dimen/bold_heading"
-            android:textAlignment="center"
-            android:layout_gravity="center_vertical"
-            android:textStyle="bold"
-            />
-    </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@drawable/roundbackground"
-        android:layout_margin="10dp"
-        >
-        <de.hdodenhof.circleimageview.CircleImageView
-            android:layout_width="65dp"
-            android:layout_height="65dp"
-            android:src="@mipmap/ic_events"
-            app:civ_border_width="8dp"
-            app:civ_border_color="@android:color/white"
-            />
         <TextView
-            android:layout_width="250dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Teachers Day"
+            android:text="@string/events"
             android:textSize="@dimen/bold_heading"
-            android:textAlignment="center"
-            android:layout_gravity="center_vertical"
             android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="5dp"
             />
-    </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@drawable/roundbackground"
-        android:layout_margin="10dp"
-        >
-        <de.hdodenhof.circleimageview.CircleImageView
-            android:layout_width="65dp"
-            android:layout_height="65dp"
-            android:src="@mipmap/ic_events"
-            app:civ_border_width="8dp"
-            app:civ_border_color="@android:color/white"
-            />
-        <TextView
-            android:layout_width="250dp"
+
+        <LinearLayout
+            android:id="@+id/gallery_opt_teachersday"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Annual Tour"
-            android:textSize="@dimen/bold_heading"
-            android:textAlignment="center"
-            android:layout_gravity="center_vertical"
-            android:textStyle="bold"
-            />
-    </LinearLayout>
+            android:background="@drawable/roundbackground"
+            android:layout_margin="10dp"
+            >
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:src="@mipmap/ic_events"
+                app:civ_border_width="8dp"
+                app:civ_border_color="@android:color/white"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/teachers_day"
+                android:textSize="@dimen/bold_heading"
+                android:gravity="center"
+                android:layout_gravity="center_vertical"
+                android:textStyle="bold"
+                />
+        </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@drawable/roundbackground"
-        android:layout_margin="10dp"
-        >
-        <de.hdodenhof.circleimageview.CircleImageView
-            android:layout_width="65dp"
-            android:layout_height="65dp"
-            android:src="@mipmap/ic_events"
-            app:civ_border_width="8dp"
-            app:civ_border_color="@android:color/white"
-            />
-        <TextView
-            android:layout_width="250dp"
+        <LinearLayout
+            android:id="@+id/gallery_opt_annualtour"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Farewell"
-            android:textSize="@dimen/bold_heading"
-            android:textAlignment="center"
-            android:layout_gravity="center_vertical"
-            android:textStyle="bold"
-            />
-    </LinearLayout>
+            android:background="@drawable/roundbackground"
+            android:layout_margin="10dp"
+            >
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:src="@mipmap/ic_events"
+                app:civ_border_width="8dp"
+                app:civ_border_color="@android:color/white"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/annual_tour"
+                android:textSize="@dimen/bold_heading"
+                android:gravity="center"
+                android:layout_gravity="center_vertical"
+                android:textStyle="bold"
+                />
+        </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@drawable/roundbackground"
-        android:layout_margin="10dp"
-        >
-        <de.hdodenhof.circleimageview.CircleImageView
-            android:layout_width="65dp"
-            android:layout_height="65dp"
-            android:src="@mipmap/ic_events"
-            app:civ_border_width="8dp"
-            app:civ_border_color="@android:color/white"
-            />
-        <TextView
-            android:layout_width="250dp"
+        <LinearLayout
+            android:id="@+id/gallery_opt_farewell"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Career Guidance"
-            android:textSize="@dimen/bold_heading"
-            android:textAlignment="center"
-            android:layout_gravity="center_vertical"
-            android:textStyle="bold"
-            />
-    </LinearLayout>
+            android:background="@drawable/roundbackground"
+            android:layout_margin="10dp"
+            >
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:src="@mipmap/ic_events"
+                app:civ_border_width="8dp"
+                app:civ_border_color="@android:color/white"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/farewell"
+                android:textSize="@dimen/bold_heading"
+                android:gravity="center"
+                android:layout_gravity="center_vertical"
+                android:textStyle="bold"
+                />
+        </LinearLayout>
 
-</LinearLayout>
+        <LinearLayout
+            android:id="@+id/gallery_opt_careerguid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/roundbackground"
+            android:layout_margin="10dp"
+            >
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:src="@mipmap/ic_events"
+                app:civ_border_width="8dp"
+                app:civ_border_color="@android:color/white"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/career_guidance"
+                android:textSize="@dimen/bold_heading"
+                android:gravity="center"
+                android:layout_gravity="center_vertical"
+                android:textStyle="bold"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/gallery_opt_felicitation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/roundbackground"
+            android:layout_margin="10dp"
+            >
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:src="@mipmap/ic_events"
+                app:civ_border_width="8dp"
+                app:civ_border_color="@android:color/white"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/felicitation"
+                android:textSize="@dimen/bold_heading"
+                android:gravity="center"
+                android:layout_gravity="center_vertical"
+                android:textStyle="bold"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/gallery_opt_parentsmeet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/roundbackground"
+            android:layout_margin="10dp"
+            >
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:src="@mipmap/ic_events"
+                app:civ_border_width="8dp"
+                app:civ_border_color="@android:color/white"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/parents_meet"
+                android:textSize="@dimen/bold_heading"
+                android:gravity="center"
+                android:layout_gravity="center_vertical"
+                android:textStyle="bold"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/gallery_opt_weeklytest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/roundbackground"
+            android:layout_margin="10dp"
+            >
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:src="@mipmap/ic_events"
+                app:civ_border_width="8dp"
+                app:civ_border_color="@android:color/white"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/weekly_test"
+                android:textSize="@dimen/bold_heading"
+                android:gravity="center"
+                android:layout_gravity="center_vertical"
+                android:textStyle="bold"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/gallery_opt_projector"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/roundbackground"
+            android:layout_margin="10dp"
+            >
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:src="@mipmap/ic_events"
+                app:civ_border_width="8dp"
+                app:civ_border_color="@android:color/white"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/projector_session"
+                android:textSize="@dimen/bold_heading"
+                android:gravity="center"
+                android:layout_gravity="center_vertical"
+                android:textStyle="bold"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
